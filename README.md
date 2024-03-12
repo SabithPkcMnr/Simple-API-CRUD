@@ -3,14 +3,26 @@ This is a simple API to fetch all students from a school database along with CRU
 # How To Make It Work?
 Download the MyDatabase.php and upload it inside any folder using the file manager. Make sure you change the database information in the PHP file.
 
-## Implementation
-Add the audience network sdk dependency to build.gradle(Module: app)
+## How To Make It Work?
+Download the MyDatabase.php and upload it inside any folder using the file manager. Make sure you change the database information in the PHP file.
+
+## Make API Request
+### Get All Students (GET Request)
 ```
-implementation 'com.facebook.android:audience-network-sdk:6.2.0'
+https://example.com/MyDatabase.php?action=getAllStudents
 ```
 
+### Add New Student (GET Request)
+```
+https://example.com/MyDatabase.php?action=addUser&name=John&age=25
+```
 
-Initialize the AudienceNetworkAds class.
-```php
-AudienceNetworkAds.initialize(this);
+### Edit Student Info (GET Request)
+```
+https://example.com/MyDatabase.php?action=editUser&id=1&name=Jane&age=30
+```
+
+### Delete A Student (GET Request)
+```
+https://example.com/MyDatabase.php?action=deleteUser&id=1
 ```
