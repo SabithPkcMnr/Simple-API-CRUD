@@ -13,16 +13,16 @@ https://example.com/MyDatabase.php?action=getAllStudents
 ```
 
 ### Add New Student (GET Request)
-```php
+```url
 https://example.com/MyDatabase.php?action=addUser&name=John&age=25
 ```
 
 ### Edit Student Info (GET Request)
-```java
+```url
 https://example.com/MyDatabase.php?action=editUser&id=1&name=Jane&age=30
 ```
 
 ### Delete A Student (GET Request)
-```http
+```url
 https://example.com/MyDatabase.php?action=deleteUser&id=1
 ```
