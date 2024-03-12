@@ -25,5 +25,5 @@ https://example.com/MyDatabase.php?action=editUser&id=1&name=Jane&age=30
 https://example.com/MyDatabase.php?action=deleteUser&id=1
 ```
 
-## Preview
+## Preview (Get All Students)
 <img src="/Students_Response.png">
