@@ -1,7 +1,5 @@
 # Simple-API-CRUD
 This is a simple API to fetch all students from a school database along with CRUD functions to manage the students
-# How To Make It Work?
-Download the MyDatabase.php and upload it inside any folder using the file manager. Make sure you change the database information in the PHP file.
 
 ## How To Make It Work?
 Download the MyDatabase.php and upload it inside any folder using the file manager. Make sure you change the database information in the PHP file.
@@ -26,3 +24,6 @@ https://example.com/MyDatabase.php?action=editUser&id=1&name=Jane&age=30
 ```url
 https://example.com/MyDatabase.php?action=deleteUser&id=1
 ```
+
+## Preview
+<img src="/Students_Response.png">
