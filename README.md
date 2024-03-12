@@ -1,5 +1,5 @@
 # Simple-API-CRUD
-This is a simple API to fetch all students from a student database along with CRUD operations to manage database.
+This is a simple API written in PHP to access student database along with CRUD operations to manage the database.
 ```js
 CRUD is the acronym for CREATE, READ, UPDATE and DELETE
 ```
